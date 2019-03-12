@@ -1,14 +1,397 @@
+body {
+  
+position: absolute;
+  margin:0;
+  background-image: url(https://github.com/YaremaY/HomWork-3/blob/master/pictures/iron_new.png?raw=true);
+   background-repeat: no-repeat;
+    background-position: center 45%;
+    background-position: bottom 95%;
+    background-position: top 50%;*/
+    background-color:	#14141f;
+    opacity: 0.98;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
 
-body
-{
-margin: 0;
-height: 100%;
-  background: #808080
-  url(https://purepng.com/public/uploads/large/purepng.com-ironmanironmansuperheromarvel-comicscharactermarvel-studiosrobert-downey-jrtony-stark-17015286109813na53.png);
-  background-repeat: no-repeat;
-  background-position: right 10%;
-  background-position: center 17%;
-  background-position: bottom 90%;
-  background-size: 60%;
-  transparent: 25%;
+}
+
+.desk-black {
+  
+  width: 1200px;
+  height: 550px;
+  margin-left: 20px;
+  margin-right: 120px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+}
+
+span.a {
+  
+  position: absolute;
+  width: 377px;
+  height: 400px;
+  left: 100px;
+  right: 600px;
+  top: 130px;
+  padding: 5px;
+  border: 1px ;
+  background-color: white;
+}
+
+span.b {
+  
+  position: absolute;
+  width: 63px;
+  height: 0px;
+  left: 205px;
+  right: 600px;
+  top: 200px;
+  padding: 2px;
+  background-color: #FF4500;
+}
+
+span.bb {
+  
+  position: absolute;
+  width: 250px;
+  height: 0px;
+  left: 210px;
+  right: 500px;
+  top: 460px;
+  padding: 1px;
+  background-color: gray;
+}
+
+span.c {
+  
+  position: absolute;
+  width: 538px;
+  height: 400px;
+  left: 487.1px;
+  right: 200px;
+  top: 130px;
+  padding: 5px;
+  border: 1px ;
+  background-color: black;
+}
+
+span.d {
+  
+  position: absolute;
+  width: 160px;
+  height: 20px;
+  left: 790px;
+  right: 100px;
+  top: 430px;
+  padding: 5px;
+  border: 1px ;
+  background-color: #FF4500;
+  z-index: 1;
+}
+
+span.dd {
+  
+position: absolute;
+width: 7px;
+height: 7px;
+left: 960px;
+right: 100px;
+top:190px;
+  background-color:  #FF4500;
+  z-index: 1;
+}
+
+p1 {
+  position: absolute;
+    top: 230px;
+    left: 200px;
+    color: #FF4500;
+    font-weight: 800;
+    font-size: 80px;
+    font-family: verdana;
+    font-style: normal;
+}
+
+p2 {
+  
+  position: absolute;
+    top: 230px;
+    left: 540px;
+    color: white;
+    font-weight: 800;
+    font-size: 80px;
+    font-family: verdana;
+    font-style: normal;
+    z-index: 1;
+}
+
+a:link {
+  text-decoration: none;
+
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.Click {
+  position: absolute;
+  top: 438px;
+  left: 823px;
+  font-weight: 5px;
+  font-size: 10px;
+  font-family: verdana;
+  font-style: normal;
+  color: white;
+  z-index: 1;
+
+}
+
+.menu_button {
+  
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    top: 78px;
+    left: 84px;
+}
+
+.iron-man-hand {
+  
+  position: absolute;
+  top: 210px;
+  left: 690px;
+  width: 157px;
+  height: 330px;
+  bottom: 40px;
+  z-index: 1;
+  -webkit-filter: grayscale(50%);
+-moz-filter: grayscale(50%);
+-ms-filter: grayscale(50%);
+-o-filter: grayscale(50%);
+filter: blur(3px);
+filter: brightness(30%);
+  
+}
+
+.cap {
+  
+  position: absolute;
+  top: 140px;
+  left: 600px;
+  width: 57px;
+  height: 170px;
+  bottom: 40px;
+  z-index: 1;
+  filter: blur(3px);
+  filter: brightness(40%);
+  
+  }
+
+.iron-man-walk {
+  
+    position: absolute;
+    top: 160px;
+    left: 360px;
+    width: 257px;
+    height: 530px;
+    bottom: 40px;
+    z-index: 2;
+
+  }
+
+  .Letter {
+    
+    position: absolute;
+    height: 5%;
+    width: 3%;
+    top: 78px;
+    left: 504px;
+    right: 100px;
+    
+  }
+
+.vengers {
+  
+  position: absolute;
+    top: 81px;
+    left: 539px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: verdana;
+    font-style: oblique;
+}
+
+.Join {
+  
+  position: absolute;
+  top: 468px;
+  left: 790px;
+  font-weight: 5px;
+  font-size: 7.5px;
+  font-family: verdana;
+  font-style: normal;
+  color: white;
+  z-index: 1;
+}
+
+.e {
+  
+  position: absolute;
+    top: 330px;
+    left: 1067px;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+
+.f {
+  
+  position: absolute;
+    top: 340px;
+    left: 1067px;
+    font-weight: 800;
+    font-size: 20px;
+    color: gray;
+}
+
+.g {
+  
+  position: absolute;
+    top: 350px;
+    left: 1067px;
+    font-weight: 800;
+    font-size: 20px;
+    color: gray;
+}
+
+p6 {
+  
+  position: absolute;
+    top: 93px;
+    left: 1000px;
+    color: gray;
+    font-weight: bold;
+    font-size: 9px;
+    font-family: verdana;
+    font-style: oblique;
+}
+
+p7 {
+  
+  position: absolute;
+    top: 435px;
+    left: 210px;
+    color: black;
+    font-weight: 800;
+    font-size: 19px;
+    font-height: 10px;
+    font-family: sans-serif;
+  font-style: normal;
+  z-index: 1;
+}
+
+p8 {
+
+  position: absolute;
+    top: 447px;
+    left: 235px;
+    color: black;
+    font-weight: normal;
+    font-size: 10px;
+    font-height: 10px;
+    font-family: sans-serif;
+  font-style: normal;
+  z-index: 1;
+}
+
+p9 {
+  position: absolute;
+    top: 464px;
+    left: 210px;
+    color: black;
+    font-weight: 500;
+    font-size: 7px;
+    font-height: 10px;
+    font-family: sans-serif;
+  font-style: normal;
+  z-index: 1;
+}
+
+.CP {
+  position: absolute;
+    color: white;
+    font-size: 7.5px;
+border-radius: 50px;
+writing-mode: tb-rl;
+  transform:rotate(180deg);
+   left: 60px;
+   top: 390px;
+   font-family: verdana;
+}
+
+.SM {
+  position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+border-radius: 50px;
+writing-mode: tb-rl;
+   transform:rotate(180deg);
+   left: 60px;
+   top: 295px;
+   font-weight: 5px;
+   font-size: 7.5px;
+   font-family: verdana;
+   font-style: normal;
+   z-index: 1;
+}
+
+.IM {
+  position: absolute;
+    color: #FF4500;
+    text-transform: uppercase;
+    font-size: 10px;
+border-radius: 50px;
+writing-mode: tb-rl;
+   transform:rotate(180deg);
+   left: 60px;
+   top: 200px;
+   font-weight: 5px;
+   font-size: 8px;
+   font-family: verdana;
+   font-style: normal;
+   z-index: 1;
+}
+
+.o {
+
+position: absolute;
+color: white;
+left: 63px;
+top: 260px;
+z-index: 1;
+
+}
+
+.oo {
+  position: absolute;
+  color: white;
+  left: 63px;
+  top: 360px;
+  z-index: 1;
+
 }
